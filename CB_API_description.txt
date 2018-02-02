@@ -1,0 +1,184 @@
+~~~~~~~~~~~~~~~~~~
+CrunchBase API
+~~~~~~~~~~~~~~~~~~
+
+    LIST Modus
+
+     * companies
+     * people
+     * financial-organizations
+     * products
+     * service-providers
+
+     * List: http://api.crunchbase.com/v/1/<namespace>.js
+
+    SHOW Modus
+ 
+     * company
+     * person
+     * financial-organization
+     * product
+     * service-provider
+
+     * Show: http://api.crunchbase.com/v/1/<namespace>/<permalink>.js
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Entity Description
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    ~~~~~~~~~~~~~
+    Companies
+    ~~~~~~~~~~~~~
+                   name: 'Educationload'
+              permalink: 'educationload'
+         crunchbase_url: 'http://www.crunchbase.com/company/educationload'
+           homepage_url: 'http://educationload.com/'
+               blog_url: 'http://educationload.com/'
+          blog_feed_url: 'http://educationload.com/?feed=rss2'
+       twitter_username: []
+          category_code: 'web'
+    number_of_employees: 1
+           founded_year: 2008
+          founded_month: 8
+            founded_day: 17
+        deadpooled_year: []
+       deadpooled_month: []
+         deadpooled_day: []
+         deadpooled_url: []
+               tag_list: [1x179 char]
+             alias_list: []
+          email_address: 'educationload@googlemail.com'
+           phone_number: [1x0 char]
+            description: []
+             created_at: 'Thu Sep 04 17:51:19 UTC 2008'
+             updated_at: 'Sun Jan 25 17:21:48 UTC 2009'
+               overview: [1x477 char]
+                  image: [1x1 struct]
+               products: {0x1 cell}
+          relationships: {[1x1 struct]}
+           competitions: {0x1 cell}
+          providerships: {0x1 cell}
+         funding_rounds: {0x1 cell}
+            investments: {0x1 cell}
+            acquisition: []
+           acquisitions: {0x1 cell}
+                offices: {0x1 cell}
+             milestones: {0x1 cell}
+                    ipo: []
+           video_embeds: {0x1 cell}
+            screenshots: {0x1 cell}
+         external_links: {[1x1 struct]}
+
+
+    ~~~~~~~~~~~~~
+    People
+    ~~~~~~~~~~~~~
+          first_name: 'Russ'
+           last_name: 'Warner'
+           permalink: 'russ-warner'
+      crunchbase_url: 'http://www.crunchbase.com/person/russ-warner'
+        homepage_url: []
+          birthplace: []
+    twitter_username: []
+            blog_url: []
+       blog_feed_url: []
+    affiliation_name: 'Unaffiliated'
+           born_year: []
+          born_month: []
+            born_day: []
+            tag_list: []
+          alias_list: []
+          created_at: 'Wed Apr 21 17:59:43 UTC 2010'
+          updated_at: 'Wed Apr 21 17:59:43 UTC 2010'
+            overview: []
+               image: []
+             degrees: {0x1 cell}
+       relationships: {[1x1 struct]}
+         investments: {0x1 cell}
+          milestones: {0x1 cell}
+        video_embeds: {0x1 cell}
+      external_links: {0x1 cell}
+       web_presences: {0x1 cell}
+
+    ~~~~~~~~~~~~~
+    Financials
+    ~~~~~~~~~~~~~
+                   name: 'Pioneer Ventures Associates'
+              permalink: 'pioneer-ventures-associates'
+         crunchbase_url: [1x76 char]
+           homepage_url: [1x0 char]
+               blog_url: [1x0 char]
+          blog_feed_url: [1x0 char]
+       twitter_username: []
+           phone_number: [1x0 char]
+            description: []
+          email_address: [1x0 char]
+    number_of_employees: []
+           founded_year: []
+          founded_month: []
+            founded_day: []
+               tag_list: [1x0 char]
+             alias_list: [1x0 char]
+             created_at: 'Thu Jun 19 19:01:36 UTC 2008'
+             updated_at: 'Thu Dec 04 03:51:51 UTC 2008'
+               overview: [1x308 char]
+                  image: []
+                offices: {0x1 cell}
+          relationships: {0x1 cell}
+            investments: {[1x1 struct]}
+             milestones: {0x1 cell}
+          providerships: {0x1 cell}
+                  funds: {0x1 cell}
+           video_embeds: {0x1 cell}
+         external_links: {0x1 cell}
+   
+    ~~~~~~~~~~~~~
+    Products
+    ~~~~~~~~~~~~~
+                name: 'Twit Ya!'
+           permalink: 'twit-ya'
+      crunchbase_url: 'http://www.crunchbase.com/product/twit-ya'
+        homepage_url: [1x0 char]
+            blog_url: [1x0 char]
+       blog_feed_url: [1x0 char]
+    twitter_username: []
+          stage_code: []
+      deadpooled_url: [1x0 char]
+    invite_share_url: [1x0 char]
+            tag_list: []
+          alias_list: [1x0 char]
+     deadpooled_year: []
+    deadpooled_month: []
+      deadpooled_day: []
+       launched_year: []
+      launched_month: []
+        launched_day: []
+          created_at: 'Fri Mar 20 10:50:57 UTC 2009'
+          updated_at: 'Mon Mar 23 18:32:22 UTC 2009'
+            overview: []
+               image: []
+             company: [1x1 struct]
+          milestones: {0x1 cell}
+        video_embeds: {0x1 cell}
+      external_links: {0x1 cell}
+
+    ~~~~~~~~~~~~~
+    Providers
+    ~~~~~~~~~~~~~
+
+              name: 'Working The Magic'
+         permalink: 'working-the-magic'
+    crunchbase_url: [1x60 char]
+      homepage_url: []
+      phone_number: []
+     email_address: []
+          tag_list: []
+        alias_list: []
+        created_at: 'Tue Dec 29 16:41:40 UTC 2009'
+        updated_at: 'Tue Dec 29 17:56:59 UTC 2009'
+          overview: []
+             image: []
+           offices: {0x1 cell}
+     providerships: {[1x1 struct]}
+    external_links: {0x1 cell}
+
